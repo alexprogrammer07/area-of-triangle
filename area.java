@@ -5,7 +5,7 @@ class AreaOfTriangle
     {
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("Enter 1. for Equilateral, \n2. for Isoceles and, \n3. for Scalene");
+        System.out.println("Enter 1. for Equilateral triangle, \n2. for Isoceles triengle and, \n3. for Scalene triangle");
         int choice = Integer.parseInt(br.readLine());
 
         double area = 0.0;
